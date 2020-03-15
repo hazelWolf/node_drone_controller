@@ -1,11 +1,11 @@
 {
   "name": "nodedrona",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node controller for drones",
+  "main": "./dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node ./dist/app.js"
+    "test": "node ./dist/app.js",
+    "start": "tsc && typedoc && node ./dist/app.js"
   },
   "author": "hazelWolf",
   "license": "ISC",
